@@ -1,0 +1,48 @@
+form {
+  width: 60%; /* Adjust the width of the form */
+  margin: 50px auto; /* Center the form horizontally and add margin outside */
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="checkbox"] {
+  width: calc(100% - 20px); /* Adjust the width of input fields */
+  padding: 8px;
+  margin-bottom: 12px; /* Add spacing between input fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+  width: auto; /* Adjust width for checkboxes */
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px; /* Add margin for error message */
+}

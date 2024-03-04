@@ -1,0 +1,51 @@
+.NavBar {
+    /* background-color:cadetblue; */
+    padding: 5px 10px; /* Adjust padding as needed */
+  }
+  
+  .NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .NavBar ul li {
+    display: inline-block;
+  }
+  
+  .NavBar ul li:nth-child(1) h1 {
+    margin: 0;
+  }
+  
+  .NavBar ul li:nth-child(n+2) {
+    margin-left: 20px; /* Adjust spacing between items */
+  }
+  
+  .NavBar ul li:nth-child(4) {
+    margin-left: auto; /* Push the logout button to the right */
+  }
+  
+  .NavBar ul li a,
+  .NavBar ul li button ,
+  .NavBar ul li{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(238, 255, 0);
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
+  .NavBar ul li a:hover,
+  .NavBar ul li button:hover {
+    background-color:darkgray;
+  }
+  
+  .NavBar ul li img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  

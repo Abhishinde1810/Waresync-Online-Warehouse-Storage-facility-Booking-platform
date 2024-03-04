@@ -1,0 +1,40 @@
+#warehouseForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  #warehouseForm label {
+    margin-top: 10px;
+  }
+  
+  #warehouseForm input[type="text"],
+  #warehouseForm input[type="number"],
+  #warehouseForm input[type="file"] {
+    height: 24px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  
+  #warehouseForm input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #warehouseForm button[type="submit"] {
+    height: 36px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #warehouseForm button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }

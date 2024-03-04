@@ -1,0 +1,61 @@
+/* Container for centering the form */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Background color for the entire page */
+}
+
+/* Form styles */
+.form-container {
+  width: 50%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px; /* Add side margins */
+  margin-top: 20%;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+/* Input fields */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+/* Input field focus */
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Submit button */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.btn-primary:hover {
+  background-color: #0056b3;
+}

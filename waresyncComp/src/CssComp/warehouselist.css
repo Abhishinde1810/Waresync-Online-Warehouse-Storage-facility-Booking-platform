@@ -1,0 +1,92 @@
+/* Container styles */
+.warehouse-list {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styles */
+  .warehouse-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Error message styles */
+  .warehouse-list .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* List styles */
+  .warehouse-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* List item styles */
+  .warehouse-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Warehouse detail row styles */
+  .warehouse-list .details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Warehouse detail label styles */
+  .warehouse-list .detail-label {
+    flex-basis: 30%;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Warehouse detail value styles */
+  .warehouse-list .detail-value {
+    flex-basis: 65%;
+    color: #333;
+  }
+  
+  /* Buttons row styles */
+  .warehouse-list .buttons-row {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+  }
+  
+  /* Button styles */
+  .warehouse-list .buttons-row button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px; /* Add margin between buttons */
+  }
+  
+  .warehouse-list .buttons-row .update-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .warehouse-list .buttons-row .update-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .warehouse-list .buttons-row .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .warehouse-list .buttons-row .delete-button:hover {
+    background-color: #c82333;
+  }
+  
